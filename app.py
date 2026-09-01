@@ -1,11 +1,11 @@
 import google.generativeai as genai
 import streamlit as st
 
-st.set_page_config(page_title="Mera Apna AI", page_icon="🤖")
-st.title("🤖 Mera Apna Personal AI")
+st.set_page_config(page_title="FAMOUS SOBI HERE", page_icon="🤖")
+st.title("🤖 FAMOUS SOBBI HERE")
 
-# Yahan apni API Key daalein
-genai.configure(api_key=st.secrets["AQ.Ab8RN6JsJvP8SnmEOJ0UYx-3uE6W0n37K5ACOTRcKde3_D3iFg"])
+# Secrets se API Key configuration
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 if "messages" not in st.session_state:
