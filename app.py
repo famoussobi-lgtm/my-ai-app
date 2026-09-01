@@ -20,7 +20,7 @@ if prompt := st.chat_input("Koyi bhi sawal pucho..."):
 
     with st.chat_message("assistant"):
         response = client.models.generate_content(
-            model="gemini-1.5-flash",
+            model="gemini-2.0-flash",
             contents=prompt,
         )
         st.markdown(response.text)
