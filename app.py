@@ -5,7 +5,7 @@ st.set_page_config(page_title="Mera Apna AI", page_icon="🤖")
 st.title("🤖 Mera Apna Personal AI")
 
 # Yahan apni API Key daalein
-genai.configure(api_key="APNI_API_KEY_YAHAN_RAKHEIN")
+genai.configure(api_key="AQ.Ab8RN6JsJvP8SnmEOJ0UYx-3uE6W0n37K5ACOTRcKde3_D3iFg")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 if "messages" not in st.session_state:
